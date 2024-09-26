@@ -1,1 +1,1 @@
-<img src="booking-demo.mp4" width="150px" />
+[![Please find the demo](/videos/user/demo-thumbnail.png)](/videos/user/demo.mp4)
