@@ -1,1 +1,1 @@
-# meeting-rooms-booking
+<img src="booking-demo.mp4" width="150px" />
