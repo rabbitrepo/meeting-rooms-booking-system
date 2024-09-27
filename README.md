@@ -5,7 +5,7 @@ https://github.com/user-attachments/assets/4ac612fc-8e42-48bc-b2d6-96169999e61d
 
 # Background
 
-One day, I was chatting with a friend who's an HRIS Data Analyst. He was venting about the chaos in his company over meeting rooms—apparently, it's like a daily battle royale. Their current system is a mess, with no clear way to check if a room's actually booked, so everyone's double-booking and stepping on each other’s toes.
+One day, I was chatting with a friend who's an HRIS (Data Analyst). He was venting about the chaos in his company over meeting rooms—apparently, it's like a daily battle royale. Their current system is a mess, with no clear way to check if a room's actually booked, so everyone's double-booking and stepping on each other’s toes.
 
 I casually threw out, 'Why not let me build you something better?' A custom solution, tailored exactly to their needs—and I could easily make the pricing more attractive than the usual vendors. So, I decided to dive in and start building a POC. Challenge accepted.
 
