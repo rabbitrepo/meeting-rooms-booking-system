@@ -14,6 +14,9 @@ The project is now in the bidding phase.
 # Features
 
 ## User Portal
+
+https://github.com/user-attachments/assets/4ac612fc-8e42-48bc-b2d6-96169999e61d
+
 - Login
     - [ ]  For an MVP, user can login with email OTP but for production integrated with Azure Auth system they use would be a better option.
 - Booking History
@@ -26,22 +29,30 @@ The project is now in the bidding phase.
         - [ ]  In actual production, this should be integrated with their directory.
     - After booking is completed, all participants will get an email notification as well as a calendar invitation.
 
+## Live Occupancy
+
+![Occupancy Display](https://github.com/user-attachments/assets/6110bb16-220f-4c00-b705-f62a07ea6833)
+
+- The system displays the real-time availability status of each meeting room, making it easy for users to see which rooms are currently occupied or available.
+- The application is meant to be run on a tablet device, which will be mounted at the entrance of each meeting room for convenient access.
+- The system provides a way for users to check in using a QR code displayed on the tablet.
+- Before the meeting starts 15 minutes, the system will send a confirmation email to all attendees. If no one responds within 5 minutes, the room will be automatically freed up for other users to book.
+
 ## Admin Portal
 
 …In Development
 
-## Live Occupancy
-
-…In Development
+- Manage branches, meeting rooms, and permission.
 
 # Architecture
 
 ![meeting-rooms-architecture](https://github.com/user-attachments/assets/92af2400-3808-4e7b-af20-a9d10a350e3c)
 
 - Users will interact with the app through a web browser.
-- The app is built on a microservice architecture for scalability. Honestly, for this use case and expected load, it might be overkill—but hey, better safe than sorry.
-- Authentication is handled by AppWrite, which offers SDKs for both front-end and back-end, making it a great way to quickly bootstrap the project.
+- The app is built on a microservice architecture for scalability. 
+- Authentication is handled by AppWrite, which offers SDKs for both front-end and back-end, making it a great way to quickly bootstrap the project.    
 - We're using MongoDB for storage—nothing too fancy. Each domain has its own database, keeping everything loosely coupled.
+- Users' info and calendar invitations are managed using Microsoft Graph API.
 
 # Source Code
 - API (All services): https://github.com/rabbitrepo/meeting-rooms-booking-api
