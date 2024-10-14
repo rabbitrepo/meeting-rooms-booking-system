@@ -53,7 +53,3 @@ https://github.com/user-attachments/assets/4ac612fc-8e42-48bc-b2d6-96169999e61d
 - Authentication is handled by AppWrite, which offers SDKs for both front-end and back-end, making it a great way to quickly bootstrap the project.    
 - We're using MongoDB for storage—nothing too fancy. Each domain has its own database, keeping everything loosely coupled.
 - Users' info and calendar invitations are managed using Microsoft Graph API.
-
-# Source Code
-- API (All services): https://github.com/rabbitrepo/meeting-rooms-booking-api
-- Web Client: https://github.com/rabbitrepo/meeting-rooms-booking-client
